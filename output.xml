@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.9.7 on darwin)" generated="20211201 15:51:12.561" rpa="false" schemaversion="2">
+<suite id="s1" name="UserstoryChassis-ll" source="/Users/pisitchuthongkum/Documents/Documents - Pisit’s MacBook Air/dea-iOS-automation-test/UserstoryChassis-ll.robot">
+<kw name="Open app" library="Keyword_login_photo" type="SETUP">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>http://localhost:4723/wd/hub</arg>
+<arg>platformName=iOS</arg>
+<arg>platformVersion=14.8</arg>
+<arg>udid=81c1f597ddfe8f4e64334584c6ccf935f91d4742</arg>
+<arg>deviceName=Pisit</arg>
+<arg>app=/Users/pisitchuthongkum/Documents/Documents - Pisit’s MacBook Air/dea-iOS-automation-test-dev/DEA-DEV.ipa</arg>
+<arg>bundleld=com.chukaitj.tdiag-dev</arg>
+<arg>xcodeSigningId=Apple Development</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20211201 15:51:13.176" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20211201 15:51:13.173" endtime="20211201 15:51:13.176"/>
+</kw>
+<msg timestamp="20211201 15:51:13.181" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20211201 15:51:13.182" level="FAIL">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Bad app: /Users/pisitchuthongkum/Documents/Documents - Pisit’s MacBook Air/dea-iOS-automation-test-dev/DEA-DEV.ipa. App paths need to be absolute or an URL to a compressed app file: The application at '/Users/pisitchuthongkum/Documents/Documents - Pisit’s MacBook Air/dea-iOS-automation-test-dev/DEA-DEV.ipa' does not exist or is not accessible
+</msg>
+<status status="FAIL" starttime="20211201 15:51:12.772" endtime="20211201 15:51:13.182"/>
+</kw>
+<status status="FAIL" starttime="20211201 15:51:12.771" endtime="20211201 15:51:13.183"/>
+</kw>
+<test id="s1-t1" name="Scenario : Acceptance 33 -1">
+<status status="FAIL" starttime="20211201 15:51:13.183" endtime="20211201 15:51:13.183">Parent suite setup failed:
+WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Bad app: /Users/pisitchuthongkum/Documents/Documents - Pisit’s MacBook Air/dea-iOS-automation-test-dev/DEA-DEV.ipa. App paths need to be absolute or an URL to a compressed app file: The application at '/Users/pisitchuthongkum/Documents/Documents - Pisit’s MacBook Air/dea-iOS-automation-test-dev/DEA-DEV.ipa' does not exist or is not accessible
+</status>
+</test>
+<test id="s1-t2" name="Scenario : Acceptance preview 33-1">
+<status status="FAIL" starttime="20211201 15:51:13.183" endtime="20211201 15:51:13.183">Parent suite setup failed:
+WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Bad app: /Users/pisitchuthongkum/Documents/Documents - Pisit’s MacBook Air/dea-iOS-automation-test-dev/DEA-DEV.ipa. App paths need to be absolute or an URL to a compressed app file: The application at '/Users/pisitchuthongkum/Documents/Documents - Pisit’s MacBook Air/dea-iOS-automation-test-dev/DEA-DEV.ipa' does not exist or is not accessible
+</status>
+</test>
+<test id="s1-t3" name="Scenario : Acceptance redo 33-1">
+<status status="FAIL" starttime="20211201 15:51:13.184" endtime="20211201 15:51:13.184">Parent suite setup failed:
+WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Bad app: /Users/pisitchuthongkum/Documents/Documents - Pisit’s MacBook Air/dea-iOS-automation-test-dev/DEA-DEV.ipa. App paths need to be absolute or an URL to a compressed app file: The application at '/Users/pisitchuthongkum/Documents/Documents - Pisit’s MacBook Air/dea-iOS-automation-test-dev/DEA-DEV.ipa' does not exist or is not accessible
+</status>
+</test>
+<kw name="Close Application" library="AppiumLibrary" type="TEARDOWN">
+<doc>Closes the current application and also close webdriver session.</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20211201 15:51:13.186" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20211201 15:51:13.185" endtime="20211201 15:51:13.186"/>
+</kw>
+<msg timestamp="20211201 15:51:13.191" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20211201 15:51:13.192" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20211201 15:51:13.184" endtime="20211201 15:51:13.192">No application is open</status>
+</kw>
+<status status="FAIL" starttime="20211201 15:51:12.562" endtime="20211201 15:51:13.192">Suite setup failed:
+WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Bad app: /Users/pisitchuthongkum/Documents/Documents - Pisit’s MacBook Air/dea-iOS-automation-test-dev/DEA-DEV.ipa. App paths need to be absolute or an URL to a compressed app file: The application at '/Users/pisitchuthongkum/Documents/Documents - Pisit’s MacBook Air/dea-iOS-automation-test-dev/DEA-DEV.ipa' does not exist or is not accessible
+
+
+Also suite teardown failed:
+No application is open</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="UserstoryChassis-ll">UserstoryChassis-ll</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20211201 15:51:13.181" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20211201 15:51:13.191" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+</errors>
+</robot>

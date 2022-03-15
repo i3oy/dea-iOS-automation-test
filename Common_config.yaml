@@ -1,0 +1,102 @@
+#thailand
+usernameTDEM :  knundhap
+passwordTDEM :  1234@abcd
+
+usernameTH: deathboy
+passwordTH : 1234@Abcd3
+
+#Malaysia
+usernamemy : deamyboy
+passwordmy : 1234@Abcd3
+
+#Not stay dealer
+username :   deadlrvn
+password :   1234@Abcd2
+
+usernamenostay :   deadlrin
+passwordnostay :   1234@Abcd
+
+#Username invalid
+usernameinvalid : invalid1
+
+#Username invalid
+passwordinvalid : passwordinvalid1
+
+#Username > 8 digit
+usernamemorethan8 : 999999999
+usernameequal8 : 88888888
+usernamelessthan8 : 7777777
+usernameeng : TESTEng
+usernameengandnumber : Test123
+
+#available Part
+PARTTURBO : TURBO
+PARTSHOCK : SHOCK
+PARTV-BELT : V-BELT
+PARTREARENGINE : REAR
+PARTSTEERING : STEERING
+PARTSEAT : SEAT
+PARTCYLINDER : CYLINDER
+PARTWATERPUMP : WATER PUMP
+#PARTBLOWER : AC BLOWER
+
+#Vinno
+VINNO_01 : 123456789qwe56665
+VINNO_02 : iiofjrlkf3093kr49
+VINNO_VIOS : 999999999999996
+VINNO_Hilux : BBBBBBBBBBBBBBBB
+VINNO_Acceptance62-3 : TESTSAAVANZA321
+VINNO_Acceptance33-1 : TESCSCAMRYCHKSHT1
+VINNO_Acceptance20-1 : TESPSHILUXCHKSHT1
+
+
+#Katashiki
+KATASHIKI_01 : ACBGNHJJJ75778
+KATASHIKI_02 : ACBGNHiiiiiii8
+
+#Mileage
+Mileage : 3982
+
+
+#Lot cod
+CODE : XH1127N
+OTHERPRODUCT : Test other products
+TESTCOMMENT : Fill judgement result
+TESTCOMMENT1 : Fill repair method
+FAILUREPART : Test other failure parts
+OTHERPHENOMENON : Test other phenomenon
+COMMENT250 : English texts for beginners to practice reading and comprehension online and for free. Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar and word order. The texts below are designed help you de
+COMMENT>250 : Variables are returned as a special dictionary that allows accessing variables in space, case, and underscore insensitive manner similarly as accessing variables in the test data. This dictionary supports all same operations as normal Python example and, for dictionaries
+COMMENTINT5 : 12345
+COMMENTINT>5 : 123456
+Reason :  comment reason
+Repairmethod : comment repair method
+
+
+VIN_No_Story18_Scenario1 : MR0CB8DC600264292   #MR0CB8DC600264299
+VIN_No_Story18_Scenario2 : MR2KL3BX901003106 
+VIN_No_Story18_Scenario3 : MR2BK3BE700006206
+VIN_No_Story18_Scenario4 : MR2BC3F3401345747
+VIN_No_Story18_Scenario5 : MR0HB3FS600154284
+VIN_No_Story18_Scenario6 : MR2B33F3301296458  
+VIN_No_Story18_Scenario7 : MR0JB8DC602782926  
+VIN_No_Story18_Scenario8 : MR0EB8CC801122816 
+VIN_No_Story18_Scenario9 : PN1BA3CD803694179
+VIN_No_Story18_Scenario10 : PN1FB8CB103058956 
+VIN_No_Story18_Scenario11 : MR0JB8CD102151317  
+VIN_No_Story18_Scenario12 : MR0EB8CC801122816 
+VIN_No_Story18_Scenario13 : MR0EB8CC801122816 
+
+Katashiki_Story_18_Scenario_1 : GUN135R-CTFLHT
+Katashiki_Story_18_Scenario_2 : ZGX11R-CHXEGE 
+Katashiki_Story_18_Scenario_3 : ZRE210R-GEXGGT
+Katashiki_Story_18_Scenario_4 : SP152R-AEXRBT
+Katashiki_Story_18_Scenario_5 : GUN155R-STTMHT 
+Katashiki_Story_18_Scenario_6 : SP152R-AEXRKT 
+Katashiki_Story_18_Scenario_7 : GUN135R-CTTSHT 
+Katashiki_Story_18_Scenario_8 : GUN122R-CTFXYT  
+Katashiki_Story_18_Scenario_9 : GUN126R-DETHHE 
+Katashiki_Story_18_Scenario_10 : GUN125R-BEFXHE   
+Katashiki_Story_18_Scenario_11 : GUN122R-DTMSYT  
+Katashiki_Story_18_Scenario_12 : GUN122R-CTFXYT
+Katashiki_Story_18_Scenario_13 : GUN122R-CTFXYT 
